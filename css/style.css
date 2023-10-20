@@ -1,13 +1,13 @@
-.nav .container-fluid {
+.container-fluid {
 
   margin-left: 0;
   margin-right: 0;
   position: fixed;
   width: 100%;
   top: 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0);
   text-align: center;
-  display: flex;
+  display: inline;
 }
 
 .nav .container-fluid .item {
