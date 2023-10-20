@@ -10,9 +10,6 @@
   display: inline;
 }
 
-.nav .container-fluid .item {
-  color: coral;
-}
 
 
 .nav .container-fluid .dropdown-menu {
@@ -23,7 +20,42 @@
 }
 
 .container-fluid .contacte {
-  border-color: brown;
+  border-color: rgb(0, 0, 0);
   border-radius: 15px;
-  color: rgb(27, 170, 2);
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: #2a1bcf; 
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50%;
+}
+
+
+#contact-form {
+  margin-top: 20px;
+}
+
+#contact-form label {
+  display: block;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#contact-form button {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
