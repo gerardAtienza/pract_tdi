@@ -1,0 +1,29 @@
+.nav .container-fluid {
+
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  text-align: center;
+  display: flex;
+}
+
+.nav .container-fluid .item {
+  color: coral;
+}
+
+
+.nav .container-fluid .dropdown-menu {
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  background: #000000;
+}
+
+.container-fluid .contacte {
+  border-color: brown;
+  border-radius: 15px;
+  color: rgb(27, 170, 2);
+}
