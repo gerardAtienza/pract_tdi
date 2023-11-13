@@ -1,37 +1,68 @@
-.navbar {
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-.navbar-nav {
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
-.navbar-nav .nav-item {
-  margin-right: 15px; /* Adjust the spacing between items */
+nav a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.navbar-nav .nav-item:last-child {
-  margin-right: 0; /* Remove margin from the last item */
+section {
+  padding: 20px;
 }
 
-.navbar-toggler {
-  order: -1; /* Move the mobile menu button to the beginning */
+#inventory .car-listing {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
 }
 
-.nav .container-fluid .item {
-  color: coral;
-  position: relative;
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-.nav .container-fluid .dropdown-menu {
-  border: 0;
-  border-radius: 0;
-  background: #000000;
+form label, form textarea, form input {
+  margin-bottom: 10px;
 }
 
-.container-fluid .contacte {
-  border-color: brown;
-  border-radius: 15px;
-  color: rgb(27, 170, 2);
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
