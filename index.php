@@ -7,17 +7,7 @@
   <title>Car Dealership</title>
 </head>
 <body>
-  <?php
-  require_once _DIR_.'/connectaDb.php';
-  $action = $_GET['action'] ?? null;
-  require_once _DIR_.'/connectaDb.php'; 
-  ?>
-
-  <header>
-    <h1>AutoSales</h1>
-    <p>Your Trusted Source for Quality Cars</p>
-  </header>
-
+  
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -28,11 +18,11 @@
   </nav>
 
   <div class="container">
-      <?php require __DIR__.'/controlador/listatProductes.php'; ?>
+      <?php require __DIR__.'/recursos/resource_llistar_categories.php'; ?>
   </div>
 
   <section id="home">
-    <h2>Welcome to AutoSales</h2>
+    <h2>Welcome to AutoVip</h2>
     <p>Explore our wide range of high-quality vehicles.</p>
   </section>
 
@@ -78,7 +68,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2023 AutoSales - Your Trusted Car Dealer</p>
+    <p>&copy; 2023 AutoVip - Your Trusted Car Dealer</p>
   </footer>
 
 </body>
