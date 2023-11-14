@@ -2,8 +2,8 @@
 
 function getProductes($conn){
     // Pas 1: preparem la consulta.
-    $sql = 'SELECT id, `name`
-    FROM category';
+    $sql = 'SELECT id_prod, `nom`
+    FROM producte';
 
     // Pas 2: Enviem la query a la BBDD. La variable $conn
     // és la definida al pas anterior.

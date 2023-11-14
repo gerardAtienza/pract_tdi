@@ -1,7 +1,7 @@
 <?php
-    $databaseName = 'tdiw';
-    $databaseUser = 'user';
-    $databasePassword = 'password';
+    $databaseName = 'tdiw-l6';
+    $databaseUser = 'tdiw-l6';
+    $databasePassword = 'CLVcSyGg';
     $databaseHost = '127.0.0.1';
 
     $conn = pg_connect("dbname=$databaseName user=$databaseUser password=$databasePassword host=$databaseHost");
