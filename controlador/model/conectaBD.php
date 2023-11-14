@@ -9,6 +9,6 @@
         echo "Failed to connect to the database";
     }
     else{
-        echo "conectat correctament";
+        echo "estas conectat correctament";
     }
 ?>
